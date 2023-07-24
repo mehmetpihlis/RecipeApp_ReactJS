@@ -1,0 +1,20 @@
+{
+  "FavRecipe": [
+    {
+      "image": "https://edamam-product-images.s3.amazonaws.com/web-img/f31/f3129d9b60e0e5ab86aec3588c986276?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHYaCXVzLWVhc3QtMSJHMEUCIHupDht%2FycsX1MPmsmQmDXyPTD35bsmEU2XKSsf0lxehAiEAlu6aLQ8MQcqfHkS8NpOHhpj0WbmbOdE5VFEpYWrwrpcqwgUI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxODcwMTcxNTA5ODYiDL4hQ9m2tYwLw9yq0CqWBa4V9BojsSFNwYWpaF%2F%2FsjpQftjVua%2FXY7UZuvUOT3EsPLKqUrU%2BCXQVEJ1SuBMufNo6V4VfvRHqkrsEAdGgbbgtdr5%2FWQqP1oDaINftzMMHvBmdyCR6NgH5HmJuCyi84wsUEh8hPaAKDd4HoKyy17SouSbhAYxHjOv%2BD0e2AvgyKaPy%2BEt2xdRYxO7HLlKSDLJGm%2FXHaxkI3Wr4AaWSTXihs2QVbbjTomgiNxVvuJqAUT1uDEYquoGWlc2RfAvzalHeUHua0uNTik86kGAehFqG6SBwRU84MQNuj9vDDWnWtQDwtfCAezOj6epc7seiUuokLCDx22fV%2FxmhpWWKP5JI8%2BVedEdicuiAihK6gbcioO%2FcA57SMpb%2BjwRy%2BnRGI%2BvKV2EA2DSem1K%2BsStoGY3u35r49RlKzcX2L1DkeSBO2jr4uV0cVpzTCqT5VEYQ8gnMqfs9HFq5cEC0%2BOVNbobVslvo6T4A1W9L7tCKox1OggqQ3pJaJIeYtRSfIRlAmga7Yy1t1sPPh4iIxOrKo4FU5IefldR3wjDfTp5EMtXHDsBW%2FTPqHEsXseUCzF5NbgQPdcM8vFUx7xHBRt4VnSxqkl%2BhTsqGnhfGALbl1CDphUqSsTeDT5r0rPvbidnD2y%2FVL7S84vRNKRhKrMUPVYBXZY27A%2FFLaEaLfsKsWkgmbzigEd9pgVH8i%2FxKqzleOJHiziwefCre5vPBWtPYRZhHDtDYKTJxKcMJ5R3%2FrqmChNA1PCv0cN%2FbgOlycZHxi0P7O%2BLO0Lbb%2BpDVb%2FyTgNx0kmnhyVGM9dYv%2BaeCa2P6vg7yXqou3h%2BtsEdasaDDxyi12IN2yyWvSM8YyzzF%2BEacqMzA%2B1zxMqiyTnDE1AQ0djJq8FxOMOOn%2BKUGOrEBPoBFh6f0QOcJDShl9qVxO6orMw2jE7LOy4P1Ng%2FEQo3JLF76MnzrHWoGZe5cz%2B491gLeLrRnubD7Wo3EHLaeiuhCtXETpd22UiuievccHiqDyzFJu4XxYDnNEqcA7oZwDKuot2kbyGmE3h%2FUeJzntCpZ8%2F2TItkoGePpA6tD%2B3pDriRnEcyhndTCaDtSk60DzIbRZB3ZbVxgPsImvBJ1ABo1zDWN4Eu1zbqFAIckcJAa&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230724T063001Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFHWQST6ME%2F20230724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c55d02ef36ecb6e810426a73c697ed9e47d194de87a10e8249c6b91d2a7cfd37",
+      "label": "Classic King Crab recipes",
+      "cuisineType": "american",
+      "dishType": "condiments and sauces",
+      "mealType": "lunch/dinner",
+      "calories": 2145.8015678000006,
+      "Ingredients": [
+        "3-4 pounds Alaskan king crab legs and claws",
+        "1 stick of butter",
+        "lemon wedges"
+      ],
+      "detailedRecipe": "http://www.simplyrecipes.com/recipes/classic_king_crab/",
+      "detailedInformation": "http://www.edamam.com/recipe/classic-king-crab-recipes-9e41b6c58213045061395869439fce9e/crab",
+      "id": 1
+    }
+  ]
+}

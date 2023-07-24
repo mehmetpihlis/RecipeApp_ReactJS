@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  font-family: 'Quattrocento', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #333;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #10ba00;
+  border-radius: 50px;
+}
+
+h1, h2 {
+  font-family: 'Lugrasimo', cursive;
+}
+
+.FoodSearch {
+  background: #333 url("Image/SearchBG.jpg") no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.FoodSearch-Group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 20px 50px;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.FoodSearch-Group h1 {
+  background-color: rgba(0,50,0,0.6);
+  border-radius: 30px;
+  padding: 10px;
+  color: rgb(11, 235, 11);
+  font-size: 55px;
+}
+
+.FoodSearch-Group form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  color: aliceblue;
+}
+
+.FoodSearch-Group form input {
+  padding: 6px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  font-family: 'Quattrocento', serif;
+  font-size: 25px;
+}
+.FoodSearch-Group form input:focus {
+  border-bottom: 8px solid green;
+  transition: 0.3s;
+}
+
+.FoodSearch-Group form input[type="submit"] {
+  width: 200px;
+  padding: 15px;
+  font-family: 'Quattrocento', serif;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(13, 153, 41);
+  color: rgb(255, 255, 255);
+}
+.FoodSearch-Group form input[type="submit"]:hover {
+  background-color: rgb(9, 175, 42);
+  cursor: pointer;
+}
+
+
+.ListRecipe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 45px 50px;
+  background-color: #333;
+}
+
+.WriteRecipe {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  width: 400px;
+  padding: 40px 35px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #FFB900;
+}
+
+.WriteRecipe img {
+  border: 4px solid #333;
+  border-radius: 50px;
+}
+
+.WriteRecipe .materials ul {
+  text-align: start;
+}
+
+.WriteRecipe .links {
+  position: relative;
+  bottom: 0px;
+}
+
+.WriteRecipe a {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(2, 2, 198);
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.WriteRecipe a:visited {
+  color: rgb(2, 2, 198);
+}
+.WriteRecipe a:hover {
+  background-color: rgb(2, 2, 198);
+  color: #FFB900;
+  transition: 0.25s;
+}
+
+.AddFavoriteBtn {
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #17FF00;
+}
+.AddFavoriteBtn:hover {
+  background-color: #10ba00;
+  cursor: pointer;
+}
+
+.SwitchFavPage {
+  padding: 12px;
+  font-size: 20px;
+  border: none;
+  width: 130px;
+  border-radius: 15px;
+  background-color: rgba(0,255,0,0.25);
+  color: #fff;
+}
+.SwitchFavPage:hover {
+  background-color: rgba(0,255,0,0.45);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.FavPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+.FavPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.FavPanel {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.FavPageTitle {
+  color: #10ba00;
+}
+.FavPageTitle span {
+  color: #b48403;
+}
+.FavPageBtn {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 25px;
+  border: 2px solid #0FCD00;
+  background-color: #333;
+  color: #0FCD00;
+  font-family: 'Lugrasimo', cursive;
+}
+.FavPageBtn:hover {
+  background-color: #0FCD00;
+  color: #333;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.ListFavRecipe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.WriteFavRecipe {
+  background-color: #7ef975;
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 500px;
+  margin: 20px;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.WriteFavRecipe img {
+  border-radius: 30px;
+  border: 2px solid black;
+}
+.WriteFavRecipe .materials li {
+  text-align: start;
+}
+
+.WriteFavRecipe .materials {
+  font-size: 18px;
+}
+
+.FavExtraBtn {
+  margin: 5px;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 22px;
+  background-color: #333;
+  border: 2px solid black;
+  color: #fff;
+  border-radius: 30px;
+}
+.FavExtraBtn:hover {
+  background-color: #fff;
+  color: #333;
+  transition: 0.3s;
+}
+
+.DeleteFavoriteBtn {
+  margin-top: 20px;
+  background-color: #282727;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: red;
+  padding: 12px;
+  font-size: 17px;
+}
+.DeleteFavoriteBtn:hover {
+  cursor: pointer;
+  background-color: red;
+  color: black;
+  transition: 0.3s;
+}
